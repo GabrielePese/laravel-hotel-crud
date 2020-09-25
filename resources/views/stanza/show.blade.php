@@ -1,3 +1,3 @@
-<h2>{{$stanza -> beds}}</h2>
+<h2> Numero letti: {{$stanza -> beds}}</h2>
 
-<h2>{{$stanza -> floor}}</h2>
+<h2> La stanza si trova al piano n: {{$stanza -> floor}}</h2>
