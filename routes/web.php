@@ -13,6 +13,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', ('ControllerStanze@index') -> ('index')
-
-});
+Route::get('/','ControllerStanze@index') -> ('index');
